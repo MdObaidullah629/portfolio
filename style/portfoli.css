@@ -48,14 +48,15 @@ font-size: bold;
     color: #FD6E0A;
 }
 header{
-    background-color: #e5bea5;
+    background-color: lab(91.37% 2.24 -1.96);
     background: url(../images/developer.png),url(../images/header_bg.png),#e5bea5;;
     background-position: top left,bottom right;
     background-repeat: no-repeat;
     padding-top: 50px;
 }
 nav{
-    
+    width: 71%;
+    max-width: 1140px;
     /* border: 1px solid red; */
     margin: 0px auto;
     display: flex;
